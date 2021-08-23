@@ -1838,26 +1838,9 @@ export declare class ElementHeader extends Vue {
 }
 
 
-export declare class QuestionImage extends Vue {
-    question: QuestionImageModel;
-    css: any;
-}
-
-
 export declare class SurveyHeader extends Vue {
     survey: SurveyModel;
     mounted(): void;
-}
-
-
-export declare class Custom extends QuestionVue<QuestionCustomModel> {
-    get contentQuestion(): Question;
-    getComponentName(element: Question): string;
-}
-
-
-export declare class Composite extends QuestionVue<QuestionCompositeModel> {
-    get contentPanel(): PanelModel;
 }
 
 
